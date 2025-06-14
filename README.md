@@ -2,6 +2,10 @@
 
 This project implements various machine learning models to detect fraudulent credit card transactions using the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
+## Dataset
+
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place the `creditcard.csv` file in the root directory of the project.
+
 ## Project Structure
 
 ```
@@ -15,6 +19,7 @@ This project implements various machine learning models to detect fraudulent cre
 │   ├── f1_threshold/
 │   ├── pr_curve/
 │   └── roc_curve/
+├── creditcard.csv                    # Dataset file (download from Kaggle)
 └── requirements.txt                  # Project dependencies
 ```
 
